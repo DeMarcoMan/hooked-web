@@ -37704,7 +37704,7 @@ $2$aspect(a,b){return this.B(this,A.D("$2$aspect","$2$aspect",0,[a,b],["aspect"]
 $2$after(a,b){return this.B(this,A.D("$2$after","$2$after",0,[a,b],["after"],0))},
 $2$data$error(a,b){return this.B(this,A.D("$2$data$error","$2$data$error",0,[a,b],["data","error"],0))},
 $2$isLessThanOrEqualTo(a,b){return this.B(this,A.D("$2$isLessThanOrEqualTo","$2$isLessThanOrEqualTo",0,[a,b],["isLessThanOrEqualTo"],0))},
-$2$isGreaterThan(a,b){return this.B(this,A.D("$2$isGreaterThan","$2$isGreaterThan",0,[a,b],["isGreaterThan"],0))},
+$2$isGreaterThanOrEqualTo(a,b){return this.B(this,A.D("$2$isGreaterThanOrEqualTo","$2$isGreaterThanOrEqualTo",0,[a,b],["isGreaterThanOrEqualTo"],0))},
 $1$includeMetadataChanges(a){return this.B(this,A.D("$1$includeMetadataChanges","$1$includeMetadataChanges",0,[a],["includeMetadataChanges"],0))},
 $4$cancelOnError$onDone$onError(a,b,c,d){return this.B(this,A.D("$4$cancelOnError$onDone$onError","$4$cancelOnError$onDone$onError",0,[a,b,c,d],["cancelOnError","onDone","onError"],0))},
 $3$onDone$onError(a,b,c){return this.B(this,A.D("$3$onDone$onError","$3$onDone$onError",0,[a,b,c],["onDone","onError"],0))},
@@ -39821,7 +39821,7 @@ for(i=j.length,n=J.em(p),m=0;m<j.length;j.length===i||(0,A.G)(j),++m){J.aI(j[m],
 n.k(p,B.bT)}}return A.axe(l.a,l.gdQ().MN(j))},
 O2(a,b,c,d){var s,r,q,p,o,n,m,l,k,j=this,i=t.j,h=A.dZ(j.gdQ().b.h(0,"where"),!0,i),g=new A.ajz(h)
 if(d!=null)g.$3(b,"<=",d)
-if(c!=null)g.$3(b,">",c)
+if(c!=null)g.$3(b,">=",c)
 for(s=h.length,r=null,q=0;q<h.length;h.length===s||(0,A.G)(h),++q){p=h[q]
 o=J.au(p)
 n=o.h(p,0)
