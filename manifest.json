@@ -1,6 +1,6 @@
 {
-    "name": "hooked",
-    "short_name": "hooked",
+    "name": "Hooked",
+    "short_name": "Hooked",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#000000",
